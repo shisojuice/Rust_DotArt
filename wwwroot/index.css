@@ -1,0 +1,9 @@
+body {  
+  font-family: monospace;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+button {
+  width: 100px;
+}

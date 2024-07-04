@@ -1,0 +1,30 @@
+﻿<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="DotArtGenerator" />
+  <title>DotArtGenerator</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+<h1>DotArtGenerator</h1>
+<input type="file" id="file_input"  accept="image/jpeg, image/png" />
+<br/>
+<button id="GeneBtn0" data-dot="4">4x4生成</button>
+<button id="GeneBtn1" data-dot="8">8x8生成</button>
+<button id="GeneBtn2" data-dot="16">16x16生成</button>
+<button id="GeneBtn3" data-dot="32" >32x32生成</button>
+<button id="GeneBtn4" data-dot="64" >64x64生成</button>
+<button id="GeneBtn5" data-dot="128" >128x128生成</button>
+<br/>
+<div class="set_border">
+  上記はDotの縦横比になります
+  <br/>
+  出力PNGは512px512pxで出力されます
+</div>
+<br/>
+<script type="module" src="./index.js"></script>
+</body>
+</html>
